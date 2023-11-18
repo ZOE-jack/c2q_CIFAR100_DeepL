@@ -15,8 +15,8 @@ import torchvision
 from torchvision import datasets, models, transforms
 #Import self-defined quantum net
 from qnet import Quantumnet
-loss = {"train":[], "val":[]}
-acc = {"train":[], "val":[]}
+#loss = {"train":[], "val":[]}
+#acc = {"train":[], "val":[]}
 print(torch.cuda.is_available())
 #Input command
 q_choice=True#bool(int(sys.argv[1]))
